@@ -1,0 +1,97 @@
+{
+	"gruntz/normal/IdleNorth": {
+		width: 35,
+		height: 29,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleNorthEast": {
+		height: 34,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleEast": {
+		width: 28,
+		height: 36,
+		offsetX: 4,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleSouthEast": {
+		width: 29,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleSouth": {
+		width: 34,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleSouthWest": {
+		width: 30,
+		height: 33,
+		offsetX: 4,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleWest": {
+		width: 26,
+		height: 37,
+		offsetX: 4,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/IdleNorthWest": {
+		height: 34,
+		offsetY: -9,
+		rate: 300
+	},
+	"gruntz/normal/WalkNorth": {
+		width: 40,
+		height: 34,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkNorthEast": {
+		width: 43,
+		height: 37,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkEast": {
+		width: 34,
+		height: 36,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkSouthEast": {
+		width: 39,
+		height: 36,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkSouth": {
+		width: 41,
+		height: 36,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkSouthWest": {
+		width: 41,
+		height: 35,	
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkWest": {
+		width: 34,
+		height: 37,
+		offsetY: -9,
+		rate: 120
+	},
+	"gruntz/normal/WalkNorthWest": {
+		width: 39,
+		height: 42,	
+		offsetY: -9,
+		rate: 120
+	}
+}

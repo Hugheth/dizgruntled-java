@@ -1,0 +1,23 @@
+{
+	"select": {
+		width: 36,
+		height: 34,
+		rate: 50,
+	},
+	"target": {
+		rate: 60,
+		loop: false
+	},
+	"badTarget": {
+		rate: 60,
+		loop: false
+	},
+	"sparkle": {
+		rate: 120,
+		width: 65,
+		height: 73,
+		loop: false,
+		offsetX: -20,
+		offsetY: -24
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"gruntz/entrance1": {
+		width: 91,
+		height: 84,
+		end: 29,
+		loop: false,
+		durations: [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 100, 140, 350, 70],
+		offsetX: -24,
+		offsetY: -32
+	},
+	"gruntz/Webify": {
+		rate: 250,
+		width: 35,
+		height: 34,
+		offsetY: -9,
+		loop: false
+	},
+	"gruntz/exit/Flyup": {
+		rate: 50,
+		width: 103,
+		height: 80,
+		offsetX: -30,
+		offsetY: -32,
+		loop: false
+	},
+	"gruntz/exit/Hole": {
+		width: 37,
+		height: 39,
+		offsetX: -1,
+		offsetY: -11,
+		durations: [80, 80, 80, 80, 250, 80, 250, 80 80],
+		loop: false
+	},
+	"gruntz/exit/Squash": {
+		width: 95,
+		height: 74,
+		durations: [80, 80, 80, 80, 80, 80, 80, 80, 80, 1000, 400, 400, 400, 400, 400],
+		loop: false,
+		offsetX: -30,
+		offsetY: -15
+	}
+}

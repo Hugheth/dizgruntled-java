@@ -1,0 +1,56 @@
+{
+	"gruntz/pickup/start": {
+		width: 35,
+		rate: 80,
+		loop: false,
+		offsetY: -9
+	},
+	"gruntz/pickup/BlueDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	},
+	"gruntz/pickup/GreenDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	},
+	"gruntz/pickup/PurpleDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	},
+	"gruntz/pickup/BronzeDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	},
+	"gruntz/pickup/SilverDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	},
+	"gruntz/pickup/GoldDiamond": {
+		width: 36,
+		height: 47,
+		loop: false,
+		rate: 800,
+		offsetY: -23,
+		offsetX: 5
+	}
+}

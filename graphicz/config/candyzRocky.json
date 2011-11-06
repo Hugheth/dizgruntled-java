@@ -1,0 +1,36 @@
+{
+	"candyz/flag": {
+		width: 34,
+		height: 53,
+		rate: 160,
+		offsetX: 12,
+		offsetY: -25
+	},
+	"candyz/tree1": {
+		width: 36,
+		height: 64,
+		offsetY: -40
+	},
+	"candyz/tree2": {
+		width: 32,
+		height: 34,
+	},
+	"candyz/rocks1": {
+		width: 32,
+		height: 26
+	},
+	"candyz/grass": {
+		width: 32,
+		height: 35
+	},
+	"candyz/lilypad": {
+		width: 33,
+		height: 24
+	},
+	
+	"candyz/mud": {		
+		width: 60,
+		height: 51,
+		rate: 120
+	}
+}

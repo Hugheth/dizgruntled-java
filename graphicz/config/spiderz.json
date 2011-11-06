@@ -1,0 +1,30 @@
+{
+	"spiderz/IdleWest": {
+		rate: 250,
+		bounce: true
+	},
+	"spiderz/IdleEast": {
+		rate: 250,
+		bounce: true
+	},
+	"spiderz/WalkEast": {
+		rate: 100
+	},
+	"spiderz/WalkWest": {
+		rate: 100
+	},
+	"spiderz/SpinWest": {
+		rate: 100
+	},
+	"spiderz/SpinEast": {
+		rate: 100
+	},
+	"spiderz/SquashWest": {
+		durations: [80, 80, 80, 1000, 400, 400, 400, 400],
+		loop: false
+	},
+	"spiderz/SquashEast": {
+		durations: [80, 80, 80, 1000, 400, 400, 400, 400],
+		loop: false
+	}
+}

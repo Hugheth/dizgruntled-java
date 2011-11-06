@@ -1,0 +1,45 @@
+{
+	"ballz/rockyNorth": {
+		width: 37,
+		height: 38,
+		rate: 100,
+		offsetX: -2,
+		offsetY: -5
+	},
+	"ballz/rockyEast": {
+		width: 43,
+		height: 33,
+		rate: 100,
+		offsetX: -2,
+		offsetY: -2
+	},
+	"ballz/rockySouth": {
+		width: 37,
+		height: 38,
+		rate: 100,
+		offsetX: -2,
+		offsetY: -5
+	},
+	"ballz/rockyWest": {
+		width: 42,
+		height: 33,
+		rate: 100,
+		offsetX: -2,
+		offsetY: -2
+	},
+	"ballz/rockySink": {
+		width: 30,
+		height: 28,
+		rate: 30,
+		loop: false
+	},
+	"ballz/rockySmash": {
+		width: 83,
+		height: 86,
+		rate: 50,
+		loop: false,
+		end: 10,
+		offsetX: -24,
+		offsetY: -24
+	}
+}

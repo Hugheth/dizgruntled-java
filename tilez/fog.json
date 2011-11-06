@@ -1,0 +1,5 @@
+{
+	"name": "fog",
+	"size": "32 32",
+	"types": ["FOG_0", "FOG_1", "FOG_2", "FOG_3", "FOG_4", "FOG_5", "FOG_6", "FOG_7", "FOG_8", "FOG_9", "FOG_10", "FOG_11", "FOG_12", "FOG_13", "FOG_14"]
+}

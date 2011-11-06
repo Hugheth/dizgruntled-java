@@ -1,0 +1,3067 @@
+{
+	"game": "dizGruntled",
+	"version": "alpha-2",
+	"type": "map",
+	"name": "A Twisted Dream",
+	"author": "Hugheth",
+	"website": "http://hugheth.com",
+	"start": "10 10",
+	"playerz": [{
+		name: "player",
+		type: "human",
+		max: 20,
+		tint: "prompt"
+	}],
+	"fog": true,
+	"tilesetz": ["rockyRoadz", "standard"],
+	"roomz": [{
+		name: "home",
+		size: "64 64",
+		layerz: [{
+			"type": "landscape",
+			"tilez": "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"
+		}, {
+			"type": "active",
+			"tilez": "eJy1WDtu4zAQhY/gI+gIOUKOoCPoCL6B1KRwY5H0r4mBBTbYJontIo0jFy69nYEUaoMtVKvZeodDkeJXkRwv8CCQlPg4nBnODJVnae5Bwe4L3/itUCBUt8qz5zw7i+6K8CcZreG5rDmMueN1Pu6zxJRdptYgPd1AeBaLxprU63aQqHaJzw2dbGmcLkYcLsni9JFne/mxTitwBPlXxJZfgPgImw1eOLqEv1f6FzrH7gSeD4uR7PJXKSVdPGiU57ljCOS3jHtLSPm5ALC66ooGu58iTJ0ENrIYPXhNA5iPQf6fajoQ0viFcgOtEZotkgEyCytj98ii1jHmEfBvffzgRd9TV/zGLm98Fyi/pR+SbIfzW5Zt+G+HgouXpDL+6Pw7muzoZGfoM7p+oWa52H6F/BuSbPwTI3jlP5g+sMD4BqG6R639ShNs9IpyHrCslX9Zz/LsSYVWHnAi8ASQ/xx2/jbkQoOc7A/6+DzwE0exQ3BU9gW4cUazoDELbGe6xM6SFvyKaZp3+PfN+F2aa9GSR4Dk1VTyRgmAvjrD9pbK5eip5V/WFYSRwC4EA7eXElUj37BuW0dTlL8S8VCEbrCysGDIxLZBHRML+XEv5eqzXIwEvNNnhjzx1Do4lv71Lqp3ujiBNwr45bdOKDMOThrSj9A/ZsM/OFJ/pQcR8Bv5jSSiBUknvU41DNC/Xl91JPTemPJ6KdIV67EOF6m1tTdHX+M/PqxBHoCViwVWnaWFoaU71c4hMOJTbKrhdzcY0LZnEHYny4aD+eqo8fcU1ZNHJLQU8GnrR/vsw51rlS7uLpb1AVXkmrLl5yHRt30Hh68+6CrqpCZFtwmVTqbggZRoyc44BUnKS6DIv6J3C9Tmt7BBfy4l/ysvyE+CjcsAXTeX6emDxl2rI//LStpUyA/8BMXmpXiM2WfSwdCNaj4utSyDg6Z4Un5NURfuZk3kNILVoJq8CAmscxr8SUmdKfPxGbISQL56z/m5M3c0sfl58Eksfs7DInsLy/ovz3qfRS79HD2qFZ7sQxtcmV0okCoSl1pXyF825dAEtnBGWng1W4ze8YPSZQ5cnCFBH+ZjdcQqtVB7CxiX1nWmgaUfrHBkYNQFACr7CENhYI7AB7BKpc2t8LKjJD9bDBKgB0gKj864UpRwuXY6I4Xal5lH9FpXyf8IXtGvmG+uSKHyEtfymABqMNd/BOCoYlj4odIBkNBafhy8IlXG/b2H8LT9lfFb+snR/Uz5fwjkZDreRGVqof+K7D2e2S3/dViR2srmrHdytwCxwrHjYJBrlta94peyUWf2D1UdguopHGy5ua+7GTFnoatySlh1SfNTZVmf+WG8nvw9/Cq/ocC2fuJU+6nSWatE1ogIwr0qyaEi9ftyrrW3w6cPQiEvuXqyqG7BbIayJPi2Y1/qKmr/9c36GOg7TivwDBUdy177/eL4Fv6PcQfjH3oMluE="
+		}],
+		"logicz": [ {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			silent: "true"
+		}, {
+			type: "Tip",
+			EN: "The aim of this level is to collect as many diamonds as possible. %% Green diamondz are worth 1, blue diamondz 5 and purple 20 %% so be sure to find as many as possible!",
+			xy: "384 96"
+		}, {
+			type: "Tip",
+			EN: "Welcome to dizGruntled Alpha 2.0! Select a Grunt with the left %% mouse button and right click on a free tile to move it there. %% Use the arrow keys to scroll around the map.",
+			xy: "192 128"
+		}, {
+			type: "Tip",
+			EN: "Watch out for holez! Being made of clay, Gruntz aren't the %% brightest of the class and they'll walk right into them if you're %% not careful with your mouse...",
+			xy: "480 128"
+		}, {
+			type: "Tip",
+			EN: "Rolling balls will... well, splat Gruntz. Don't be dumb.",
+			xy: "320 288"
+		}, {
+			type: "Tip",
+			EN: "That green square there is a Switch. You know, the type that you %% stand on. This one will lower green pyramidz, but make sure %% Gruntz aren't standing on them when they raise because %% things could start looking nasty.",
+			xy: "480 288"
+		}, {
+			type: "Tip",
+			EN: "You've probably guessed from the icon on the silver switch %% *cough* what these pyramids do. Be quick!",
+			xy: "640 320"
+		}, {
+			type: "Tip",
+			EN: "Switches with the jump arrow only need to be pressed and they'll  %% stay toggled. Remember, different coloured switches have an %% effect on different coloured objects...",
+			xy: "704 416"
+		}, {
+			type: "Tip",
+			EN: "The symbols on the pressure plates tell you how many diamonds %% you must have in order to progress to the next section.",
+			xy: "288 576"
+		}, {
+			type: "Tip",
+			EN: "Oooo shiny!",
+			xy: "32 704"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "32 32",
+			size: "4 6",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "352 32",
+			size: "12 8",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "704 128",
+			size: "4 8",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "704 356",
+			size: "3 8",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "32 512",
+			size: "8 8"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "64 64",
+			size: "20 18",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "96 64",
+			size: "13 10",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "128 320",
+			size: "6 4",
+			group: "dustmite"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "192 160"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "384 224"
+		}, {
+			type: "EyeCandy",
+			sprite: "lilypad",
+			xy: "295 432"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "64 200"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "48 160"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "12 59"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "328 160"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "312 180"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "320 230"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "420 190"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "480 32"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "512 0"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "544 32"
+		}, {
+			type: "EyeCandy",
+			sprite: "rocks1",
+			xy: "58 98"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "320 590"
+		}, {
+			type: "EyeCandy",
+			sprite: "grass",
+			xy: "48 287"
+		}, {
+			type: "EyeCandy",
+			sprite: "grass",
+			xy: "92 321"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "480 160"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "486 182"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "770 256"
+		}, {
+			type: "EyeCandy",
+			sprite: "rocks1",
+			xy: "750 200"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "775 288"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "480 256"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "512 384"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "542 384"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "548 416"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "96 608"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "128 640"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "650 236"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "352 384"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "384 384"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "320 64"
+		}, {
+			type: "Diamond",
+			tint: "Bronze",
+			xy: "544 768"
+		}, {
+			type: "Diamond",
+			tint: "Silver",
+			xy: "896 512"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "320 96"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "352 64"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "480 480"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "608 32"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "640 32"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "640 96"
+		}, {
+			type: "Diamond",
+			tint: "Green",
+			xy: "640 128"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "768 320"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "800 416"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "800 448"
+		}, {
+			type: "Diamond",
+			tint: "Blue",
+			xy: "352 576"
+		},  {
+			type: "RollingBall",
+			xy: "448 288",
+			direction: "South",
+			skin: "rocky",
+			speed: "800"
+		}, {
+			type: "RollingBall",
+			xy: "512 256",
+			direction: "North",
+			skin: "rocky",
+			speed: "750"
+		}, {
+			type: "RollingBall",
+			xy: "576 160",
+			direction: "East",
+			skin: "rocky",
+			speed: "400"
+		}, {
+			type: "RollingBall",
+			xy: "576 256",
+			direction: "South",
+			skin: "rocky",
+			speed: "750"
+		}, {
+			type: "RollingBall",
+			xy: "384 544",
+			direction: "South",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "Switch",
+			xy: "544 256",
+			group: "ferret"
+		}, {
+			type: "Switch",
+			xy: "704 256",
+			group: "panther"
+		}, {
+			type: "TileTrigger",
+			xy: "576 128",
+			group: "panther"
+		}, {
+			type: "Switch",
+			xy: "672 448",
+			group: "pig"
+		}, {
+			type: "TileTrigger",
+			xy: "448 384",
+			group: "pig"
+		}, {
+			type: "TileTrigger",
+			xy: "608 160",
+			group: "pig"
+		}, {
+			type: "AreaTrigger",
+			xy: "544 96",
+			size: "96 32",
+			group: "ferret"
+		}, {
+			type: "Switch",
+			xy: "704 512",
+			group: "fish"
+		}, {
+			type: "AreaTrigger",
+			xy: "192 384",
+			size: "64 160",
+			group: "fish"
+		}, {
+			type: "Switch",
+			xy: "576 96",
+			group: "leopard"
+		}, {
+			type: "TileTrigger",
+			xy: "672 352",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "8000"
+		}, {
+			type: "TileTrigger",
+			xy: "672 320",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "800"
+		}, {
+			type: "TileTrigger",
+			xy: "672 384",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "800"
+		}, {
+			type: "TileTrigger",
+			xy: "704 352",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "7000"
+		}, {
+			type: "TileTrigger",
+			xy: "704 320",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "8000"
+		}, {
+			type: "TileTrigger",
+			xy: "704 384",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "1600"
+		}, {
+			type: "TileTrigger",
+			xy: "736 352",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "6000"
+		}, {
+			type: "TileTrigger",
+			xy: "736 320",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "1600"
+		}, {
+			type: "TileTrigger",
+			xy: "736 384",
+			group: "leopard",
+			delay: "8000",
+			response: "0",
+			rebound: "5000"
+		}, {
+			type: "TileTrigger",
+			xy: "576 64",
+			group: "leopard",
+			delay: "8000",
+			response: "2000",
+			rebound: "5000"
+		}, {
+			type: "Switch",
+			xy: "192 608",
+			group: "lemur"
+		}, {
+			type: "Switch",
+			xy: "234 608",
+			group: "lemur"
+		}, {
+			type: "AreaTrigger",
+			xy: "160 640",
+			size: "128 32",
+			group: "lemur"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "lemur"
+		}, {
+			type: "Switch",
+			xy: "32 704",
+			group: "dustmite"
+		}, 
+		
+		
+		   {
+			type: "Tip",
+			EN: "See that shiny bronze trophy over there? Well you could get %% your hands on another 2 of them following this path, though %% beware: don't use up your diamondz too early or you could %% get stuck!",
+			xy: "320 702"
+		}, {
+			type: "Tip",
+			EN: "Though you may loose control of Gruntz when they pass through %% fog, they'll walk straight through it if they can...",
+			xy: "192 960"
+		}, {
+			type: "Tip",
+			EN: "Look, some friends! %% Just a tip - you may wanna watch this switch.",
+			xy: "1120 928"
+		}, {
+			type: "Tip",
+			EN: "I think some teamwork could come in useful here...",
+			xy: "1184 1088"
+		}, {
+			type: "Tip",
+			EN: "Notice how Gruntz always move diagonally when they can? %% Just a thought...",
+			xy: "416 1056"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "928 640"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "960 608"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "128 928"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "256 992"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "160 960"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "480 864"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "320 1056"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "288 1056"
+		}, {
+			type: "EyeCandy",
+			sprite: "grass",
+			xy: "96 866"
+		}, {
+			type: "EyeCandy",
+			sprite: "grass",
+			xy: "60 800"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "640 928"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "768 928"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "800 992"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1024 576"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1056 580"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1248 832"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1408 992"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1280 704"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1152 1088"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1120 1120"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1182 1184"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1212 1188"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "928 1024"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "896 1152"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1344 864"
+		},  {
+			type: "Diamond",
+			xy: "256 928",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "320 928",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "480 928",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "480 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "128 1024",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "160 1056",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "608 960",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "608 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "768 896",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "608 896",
+			tint: "Purple"
+		}, {
+			type: "Diamond",
+			xy: "896 736",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "928 768",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "928 736",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "896 768",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1184 832",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1312 832",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1376 1024",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "864 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "896 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1408 1024",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1376 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "736 928",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1120 960",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 1376",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1568 1376",
+			tint: "Blue"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "64 768",
+			size: "6 7",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "192 576",
+			size: "14 11",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "96 992",
+			size: "5 1",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "256 992",
+			size: "7 5",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "544 640",
+			size: "5 8",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "384 928",
+			size: "2 2",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "800 416",
+			size: "2 3",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "672 928",
+			size: "1 3",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "576 960",
+			size: "1 2",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "800 896",
+			size: "1 2",
+			group: "dustmite"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "864 896",
+			size: "2 2",
+			group: "dustmite"
+		}, {
+			type: "Switch",
+			xy: "384 736",
+			group: "badger"
+		}, {
+			type: "SaveTrigger",
+			group: "badger",
+			slot: 1,
+			xy: "0 0"
+		}, {
+			type: "AreaTrigger",
+			xy: "352 704",
+			size: "96 96",
+			group: "badger"
+		}, {
+			type: "Switch",
+			xy: "224 768",
+			group: "star"
+		}, {
+			type: "AreaTrigger",
+			xy: "192 832",
+			size: "64 32",
+			group: "star"
+		}, {
+			type: "Switch",
+			xy: "384 1056",
+			group: "chipmunk"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "448 864",
+			size: "12 6",
+			group: "chipmunk"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "256 928",
+			size: "4 2",
+			group: "chipmunk"
+		}, {
+			type: "Switch",
+			xy: "736 960",
+			group: "doormouse"
+		}, {
+			type: "TileTrigger",
+			xy: "640 896",
+			group: "doormouse"
+		}, {
+			type: "TileTrigger",
+			xy: "704 992",
+			group: "doormouse"
+		}, {
+			type: "TileTrigger",
+			xy: "768 832",
+			group: "doormouse"
+		}, {
+			type: "Switch",
+			xy: "864 896",
+			group: "sparrow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "992 896",
+			size: "2 2",
+			group: "sparrow skylark"
+		}, {
+			type: "Switch",
+			xy: "992 896",
+			group: "skylark"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1120 896",
+			size: "2 2",
+			group: "skylark"
+		}, {
+			type: "Switch",
+			xy: "960 960",
+			group: "fox"
+		}, {
+			type: "TileTrigger",
+			xy: "768 800",
+			group: "fox"
+		}, {
+			type: "Switch",
+			xy: "768 672",
+			group: "beaver"
+		}, {
+			type: "AreaTrigger",
+			xy: "896 736",
+			size: "64 64",
+			group: "beaver"
+		}, {
+			type: "AreaTrigger",
+			xy: "576 1504",
+			size: "96 32",
+			group: "beaver"
+		}, {
+			type: "Switch",
+			xy: "768 768",
+			group: "angel"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "768 672",
+			size: "2 4",
+			group: "angel"
+		}, {
+			type: "Switch",
+			xy: "1120 896",
+			group: "overlord"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "832 640",
+			size: "17 10",
+			group: "overlord"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "896 576",
+			size: "16 3",
+			group: "overlord"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "800 960",
+			size: "5 3",
+			group: "overlord"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1024 832",
+			size: "14 8",
+			group: "overlord"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1408 1088",
+			size: "2 3",
+			group: "overlord"
+		}, {
+			type: "Switch",
+			xy: "1024 768",
+			group: "lemming"
+		}, {
+			type: "Switch",
+			xy: "1216 1120",
+			group: "lemming"
+		}, {
+			type: "TileTrigger",
+			xy: "1024 832",
+			group: "lemming"
+		}, {
+			type: "AreaTrigger",
+			xy: "1024 1088",
+			size: "32 64",
+			group: "lemming"
+		},
+		
+						
+		{
+			type: "Switch",
+			xy: "1216 608",
+			group: "rabbit"
+		}, {
+			type: "AreaTrigger",
+			xy: "1280 896",
+			size: "64 32",
+			group: "rabbit"
+		}, {
+			type: "AreaTrigger",
+			xy: "1216 928",
+			size: "32 64",
+			group: "rabbit"
+		}, {
+			type: "TileTrigger",
+			xy: "1216 864",
+			group: "rabbit"
+		}, {
+			type: "TileTrigger",
+			xy: "1312 960",
+			group: "rabbit"
+		}, {
+			type: "TileTrigger",
+			xy: "1280 992",
+			group: "rabbit"
+		},
+		
+		
+		{
+			type: "Switch",
+			xy: "1216 672",
+			group: "hare"
+		}, {
+			type: "AreaTrigger",
+			xy: "1216 896",
+			size: "96 32",
+			group: "hare"
+		}, {
+			type: "AreaTrigger",
+			xy: "1216 992",
+			size: "64 32",
+			group: "hare"
+		}, {
+			type: "TileTrigger",
+			xy: "1216 928",
+			group: "hare"
+		}, {
+			type: "AreaTrigger",
+			xy: "1280 960",
+			size: "32 64",
+			group: "hare"
+		},
+
+		{
+			type: "Switch",
+			xy: "1216 736",
+			group: "bunny"
+		}, {
+			type: "TileTrigger",
+			xy: "1184 896",
+			group: "bunny"
+		}, {
+			type: "AreaTrigger",
+			xy: "1248 896",
+			size: "32 64",
+			group: "bunny"
+		}, {
+			type: "AreaTrigger",
+			xy: "1248 992",
+			size: "96 32",
+			group: "bunny"
+		}, {
+			type: "TileTrigger",
+			xy: "1280 864",
+			group: "bunny"
+		},
+		
+		{
+			type: "Switch",
+			xy: "1024 608",
+			group: "llama"
+		}, {
+			type: "Switch",
+			xy: "928 896",
+			group: "llama"
+		}, {
+			type: "SaveTrigger",
+			group: "llama",
+			slot: 1,
+			xy: "0 0"
+		}, {
+			type: "Switch",
+			xy: "992 608",
+			group: "llama"
+		}, {
+			type: "TileTrigger",
+			xy: "1024 704",
+			group: "llama"
+		}, {
+			type: "Switch",
+			xy: "928 1088",
+			group: "ox"
+		}, {
+			type: "Switch",
+			xy: "1312 1120",
+			group: "ox"
+		}, {
+			type: "SaveTrigger",
+			slot: 1,
+			group: "ox",
+			xy: "0 0"
+		}, {
+			type: "AreaTrigger",
+			xy: "960 1056",
+			size: "32 96",
+			group: "ox"
+		}, {
+			type: "AreaTrigger",
+			xy: "896 1088",
+			size: "32 64",
+			group: "ox"
+		}, {
+			type: "AreaTrigger",
+			xy: "1280 1088",
+			size: "96 96",
+			group: "ox"
+		}, {
+			type: "Switch",
+			xy: "1280 672",
+			group: "sheep"
+		}, {
+			type: "TileTrigger",
+			xy: "896 1056",
+			group: "sheep"
+		}, {
+			type: "TileTrigger",
+			xy: "672 1120",
+			group: "sheep"
+		}, {
+			type: "AreaTrigger",
+			xy: "608 1088",
+			size: "32 64",
+			group: "sheep"
+		}, {
+			type: "Switch",
+			xy: "1376 896",
+			group: "deer"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1056 1024",
+			size: "11 7",
+			group: "deer"
+		}, {
+			type: "Switch",
+			xy: "1088 1120",
+			group: "martin"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "864 1024",
+			size: "10 5",
+			group: "martin"
+		},
+		
+		
+		
+		
+		{
+			type: "Tip",
+			EN: "HINT: Don't look back.",
+			xy: "1376 1472"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1472 992"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "544 640"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1536 1056"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1536 1024"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "608 608"
+		}, {
+			type: "Diamond",
+			xy: "1472 1024",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1504 1056",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1472 1056",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1504 1024",
+			tint: "Blue"
+		}, {
+			type: "Switch",
+			xy: "448 640",
+			group: "bug"
+		}, {
+			type: "SaveTrigger",
+			group: "bug",
+			slot: 1,
+			xy: "0 0"
+		}, {
+			type: "TileTrigger",
+			xy: "480 640",
+			group: "bug"
+		}, {
+			type: "Switch",
+			xy: "512 608",
+			group: "bug2"
+		}, {
+			type: "SaveTrigger",
+			group: "bug2",
+			slot: 1,
+			xy: "0 0"
+		}, {
+			type: "TileTrigger",
+			xy: "544 608",
+			group: "bug2"
+		}, {
+			type: "Switch",
+			xy: "672 832",
+			group: "manta"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1472 1024",
+			size: "3 3",
+			group: "manta"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "640 576",
+			size: "4 8",
+			group: "manta"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "800 448",
+			size: "7 7",
+			group: "manta"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "544 1504",
+			size: "7 2",
+			group: "manta"
+		},
+		
+		
+		
+		{
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1440 1344"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1600 1344"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1632 1344"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1440 1600"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1280 1664"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1215 1700"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1184 1696"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1180 1664"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1184 1632"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "992 1632"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "736 1150"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "640 1056"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "672 1056"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "800 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "896 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "960 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "960 1312"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1120 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1150 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1024 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1056 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1152 1312"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1280 1216"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1088 1344"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "960 1440"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1088 1440"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1248 1376"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1184 1472"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1216 1472"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1248 1472"
+		}, {
+			type: "Diamond",
+			xy: "1216 1248",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1248 1248",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1280 1248",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1184 1440",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "544 1088",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "544 1120",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "768 1056",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "768 1120",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "416 1280",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "416 1312",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "704 1344",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "996 1568",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1216 1664",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1344 1632",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1376 1632",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1344 1600",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1376 1600",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1408 1632",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1312 1632",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1344 1664",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1376 1664",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1120 1792",
+			tint: "Green"
+		}, {
+			type: "RollingBall",
+			xy: "1280 1280",
+			direction: "East",
+			skin: "rocky",
+			speed: "400"
+		}, {
+			type: "RollingBall",
+			xy: "1184 1344",
+			direction: "East",
+			skin: "rocky",
+			speed: "350"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "576 1504",
+			size: "2 2",
+			group: "angel"
+		}, {
+			type: "Switch",
+			xy: "1408 1120",
+			group: "maggot"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "1408 1120",
+			size: "2 2"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1280 672",
+			size: "2 2",
+			group: "maggot"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1024 768",
+			size: "2 2",
+			group: "maggot"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1408 1440",
+			size: "2 2",
+			group: "maggot"
+		}, {
+			type: "Switch",
+			xy: "1408 1216",
+			group: "grub"
+		}, {
+			type: "Switch",
+			xy: "1408 1312",
+			group: "grub"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1408 1312",
+			size: "2 2",
+			group: "grub"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1568 1344",
+			size: "3 3",
+			group: "grub"
+		}, {
+			type: "Switch",
+			xy: "1408 1440",
+			group: "cheese"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "768 1184",
+			size: "16 6",
+			group: "cheese"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1280 1216",
+			size: "4 10",
+			group: "cheese"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1152 1344",
+			size: "4 4",
+			group: "cheese"
+		}, {
+			type: "Switch",
+			xy: "1344 1248",
+			group: "lobster"
+		}, {
+			type: "Switch",
+			xy: "1216 1376",
+			group: "crab"
+		}, {
+			type: "TileTrigger",
+			xy: "1184 1280",
+			group: "lobster"
+		}, {
+			type: "TileTrigger",
+			xy: "1216 1408",
+			group: "lobster"
+		}, {
+			type: "TileTrigger",
+			xy: "832 1216",
+			group: "crab"
+		}, {
+			type: "TileTrigger",
+			xy: "992 1216",
+			group: "crab"
+		}, {
+			type: "Switch",
+			xy: "1120 1280",
+			group: "bluebottle"
+		}, {
+			type: "Switch",
+			xy: "768 1248",
+			group: "beetle"
+		}, {
+			type: "TileTrigger",
+			xy: "1216 1440",
+			group: "beetle"
+		}, {
+			type: "TileTrigger",
+			xy: "1056 1408",
+			group: "beetle"
+		}, {
+			type: "TileTrigger",
+			xy: "1120 1408",
+			group: "beetle"
+		}, {
+			type: "TileTrigger",
+			xy: "960 1472",
+			group: "beetle"
+		}, {
+			type: "Switch",
+			xy: "832 1280",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1088 1376",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "1024 1440",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "992 1472",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "1024 1536",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1088 1504",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "768 1088",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "704 1088",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "704 1152",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "672 1216",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "672 1280",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "672 1344",
+			size: "2 2",
+			group: "crow"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1152 1472",
+			size: "5 6",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1120 1632",
+			size: "2 2",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "480 1024",
+			size: "6 6",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "864 1024",
+			size: "7 6",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "384 1280",
+			size: "2 3",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "544 1280",
+			size: "2 3",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "640 1344",
+			size: "8 5",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "672 1504",
+			size: "2 2",
+			group: "bluebottle"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "928 1440",
+			size: "2 2",
+			group: "bluebottle"
+		}, {
+			type: "Switch",
+			xy: "1152 1504",
+			group: "wasp"
+		}, {
+			type: "TileTrigger",
+			xy: "896 1280",
+			group: "wasp"
+		}, {
+			type: "Switch",
+			xy: "928 1440",
+			group: "architect"
+		}, {
+			type: "AreaTrigger",
+			xy: "1344 1536",
+			size: "96 32",
+			group: "architect"
+		},  {
+			type: "Switch",
+			xy: "1120 1632",
+			group: "ermine"
+		}, {
+			type: "Switch",
+			xy: "768 1440",
+			group: "ermine"
+		}, {
+			type: "TileTrigger",
+			xy: "832 1440",
+			group: "ermine"
+		}, {
+			type: "Switch",
+			xy: "768 1504",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "1216 1664",
+			size: "2 2",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1280 1536",
+			size: "8 6",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "768 1536",
+			size: "10 10",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1024 1696",
+			size: "6 8",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "704 1504",
+			size: "7 8",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "480 1600",
+			size: "5 8",
+			group: "kangaroo"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "544 1824",
+			size: "10 3",
+			group: "kangaroo"
+		}, {
+			type: "Switch",
+			xy: "1056 1824",
+			group: "lazer"
+		}, {
+			type: "SaveTrigger",
+			slot: 1,
+			group: "lazer",
+			xy: "0 0"
+		}, {
+			type: "Switch",
+			xy: "896 1664",
+			group: "lazer"
+		}, {
+			type: "TileTrigger",
+			xy: "896 1696",
+			group: "lazer"
+		},
+		
+		
+		{
+			type: "Tip",
+			EN: "Time to harness the ancient power of Trial And Error.",
+			xy: "896 1760"
+		},{
+			type: "Tip",
+			EN: "LET THERE BE LIGHT! %% You really thought I could be bothered to fog the %% rest of the level? Wow...",
+			xy: "928 1888"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "288 1440"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "224 1408"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "224 1184"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "288 1248"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "128 1120"
+		}, {
+			type: "Diamond",
+			xy: "128 1152",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "160 1152",
+			tint: "Purple"
+		}, {
+			type: "Diamond",
+			xy: "192 1152",
+			tint: "Purple"
+		}, {
+			type: "Diamond",
+			xy: "224 1152",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "96 1536",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "32 1600",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "320 1952",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "192 1792",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "96 1696",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "288 1280",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "192 1280",
+			tint: "Purple"
+		}, {
+			type: "Diamond",
+			xy: "160 1472",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "160 1344",
+			tint: "Green"
+		}, {
+			type: "RollingBall",
+			xy: "992 1760",
+			direction: "West",
+			skin: "rocky",
+			speed: "500"
+		}, {
+			type: "RollingBall",
+			xy: "992 1696",
+			direction: "East",
+			skin: "rocky",
+			speed: "500"
+		}, {
+			type: "RollingBall",
+			xy: "960 1728",
+			direction: "North",
+			skin: "rocky",
+			speed: "500"
+		}, {
+			type: "WindLogic",
+			windy: true,
+			xy: "128 1152",
+			size: "5 2",
+			group: "overlord"
+		}, {
+			type: "Switch",
+			xy: "1120 1856",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "928 160",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "416 1728",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "288 1376",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "256 1280",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "192 1216",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "256 1216",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "160 1408",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "992 1952",
+			group: "buffalo"
+		}, {
+			type: "TileTrigger",
+			xy: "1216 1888",
+			group: "buffalo"
+		}, {
+			type: "Switch",
+			xy: "448 1504",
+			group: "moses"
+		}, {
+			type: "AreaTrigger",
+			xy: "32 1216",
+			size: "32 160",
+			group: "moses"
+		}, {
+			type: "Switch",
+			xy: "800 1827",
+			group: "cow"
+		}, {
+			type: "TileTrigger",
+			xy: "96 1536",
+			group: "cow"
+		}, {
+			type: "TileTrigger",
+			xy: "32 1600",
+			group: "cow"
+		}, {
+			type: "AreaTrigger",
+			xy: "480 1728",
+			size: "128 132",
+			group: "cow"
+		}, {
+			type: "AreaTrigger",
+			xy: "320 1664",
+			size: "64 96",
+			group: "cow"
+		}, {
+			type: "Switch",
+			xy: "320 1920",
+			group: "bull"
+		}, {
+			type: "AreaTrigger",
+			xy: "192 1632",
+			size: "32 128",
+			group: "bull"
+		}, {
+			type: "AreaTrigger",
+			xy: "576 1856",
+			size: "96 96",
+			group: "bull"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "128 1760"
+		}, {
+			type: "Switch",
+			xy: "1120 1952",
+			group: "shuffle"
+		}, {
+			type: "Switch",
+			xy: "1088 1952",
+			group: "shuffle"
+		}, {
+			type: "AreaTrigger",
+			xy: "1056 1952",
+			size: "128 32",
+			group: "shuffle"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "shuffle"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "6",
+			xy: "512 1504"
+		}, {
+			type: "Switch",
+			xy: "224 1792",
+			group: "pixie"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "128 1760",
+			size: "2 2",
+			group: "pixie"
+		}, {
+			type: "Switch",
+			xy: "320 1600",
+			group: "rat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "128 1216",
+			size: "8 12",
+			group: "rat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "192 1632",
+			size: "2 4",
+			group: "rat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "320 1920",
+			size: "2 2",
+			group: "rat"
+		}, {
+			type: "Switch",
+			xy: "992 1728",
+			group: "shrew"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "32 1216",
+			size: "5 14",
+			group: "shrew"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "192 1280",
+			size: "2 2",
+			group: "shrew"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "352 1728",
+			size: "2 2",
+			group: "shrew"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "320 1600",
+			size: "2 2",
+			group: "shrew"
+		}, {
+			type: "Switch",
+			xy: "480 1632",
+			group: "stoat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "64 1824",
+			size: "8 7",
+			group: "stoat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "384 1824",
+			size: "20 7",
+			group: "stoat"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "192 1760",
+			size: "3 3",
+			group: "stoat"
+		},  {
+			type: "WindLogic",
+			windy: false,
+			xy: "64 1664",
+			size: "3 3",
+			group: "stoat"
+		},  {
+			type: "WindLogic",
+			windy: false,
+			xy: "32 1760",
+			size: "3 3",
+			group: "stoat"
+		},  {
+			type: "Switch",
+			xy: "928 1920",
+			group: "eagle"
+		},  {
+			type: "WindLogic",
+			windy: false,
+			xy: "992 1952",
+			size: "31 3",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1216 1728",
+			size: "24 7",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1536 1472",
+			size: "16 13",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1696 32",
+			size: "6 63",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1696 32",
+			size: "11 11",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1920 416",
+			size: "2 2",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1696 576",
+			size: "11 43",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1344 32",
+			size: "11 17",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "832 32",
+			size: "16 11",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1344 746",
+			size: "4 2",
+			group: "eagle"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1600 736",
+			size: "4 2",
+			group: "eagle"
+		},
+		
+		{
+			type: "Tip",
+			EN: "Spider Grotto: Beware! (*gnash* *gnash*)",
+			xy: "1216 1984"
+		}, {
+			type: "Tip",
+			EN: "Spiderz can only move on one axis, but will do so as soon %% as they see anything edible (they are usually disappointed).",
+			xy: "1280 1824"
+		}, {
+			type: "Tip",
+			EN: "Spiderz can only move on one axis, but will do so as soon %% as they see anything edible (they are usually disappointed).",
+			xy: "1280 1824"
+		}, {
+			type: "Tip",
+			EN: "Ah, the trusty hole can always be relied upon %% to stop those formidable enemies!",
+			xy: "1568 1888"
+		}, {
+			type: "Tip",
+			EN: "WELL THAT WAS CLEVER WASN'T IT, EH?",
+			xy: "1984 1792"
+		}, {
+			type: "Tip",
+			EN: "Ah, the hill, renowned for its view-obscuring capabilities...",
+			xy: "1696 1632"
+		}, {
+			type: "Tip",
+			EN: "Hmm, the Grunt by the trophies and his ability to save %% the game at arbitrary points in the level could %% really come in handy round about now...",
+			xy: "1792 1888"
+		}, {
+			type: "Tip",
+			EN: "Strange.. it seems the spiderz have a preference to %% move eastwards. If I believed in that kind of thing %% I'd say it was because they enjoy the morning sun.",
+			xy: "1760 1376"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1472 1792"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1696 1952"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1696 1985"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "5",
+			xy: "1920 1856"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "5",
+			xy: "1600 1760"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "5",
+			xy: "1600 1792"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "4",
+			xy: "1728 1440"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1952 1792"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "3",
+			xy: "1536 1856"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "4",
+			xy: "1888 1344"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "4",
+			xy: "1728 1248"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1824 1600"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1632 1920"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "1664 1920"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1632 1920"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1824 1408"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1728 1312"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1728 1280"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1760 1280"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1952 544"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree2",
+			xy: "1984 576"
+		}, {
+			type: "Diamond",
+			xy: "1536 1728",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1568 1728",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1568 1952",
+			tint: "Green"
+		},{
+			type: "Diamond",
+			xy: "1632 1952",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1632 1984",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1984 1888",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 1952",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 1985",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1984 1856",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1696 1376",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1696 1408",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1696 1312",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1728 1344",
+			tint: "Blue"
+		}, {
+			type: "RollingBall",
+			xy: "1792 1696",
+			direction: "North",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "Switch",
+			xy: "1728 1536",
+			group: "donkey"
+		}, {
+			type: "TileTrigger",
+			xy: "1792 1632",
+			group: "donkey"
+		}, {
+			type: "TileTrigger",
+			xy: "1856 1472",
+			group: "donkey"
+		}, {
+			type: "TileTrigger",
+			xy: "1856 1312",
+			group: "donkey"
+		}, {
+			type: "TileTrigger",
+			xy: "1856 1216",
+			group: "donkey"
+		}, {
+			type: "Switch",
+			xy: "1792 1152",
+			group: "mule"
+		}, {
+			type: "AreaTrigger",
+			xy: "1696 1600",
+			size: "64 32",
+			group: "mule"
+		},  {
+			type: "AreaTrigger",
+			xy: "1920 1600",
+			size: "64 32",
+			group: "mule"
+		}, {
+			type: "Switch",
+			xy: "1824 1024",
+			group: "goat"
+		}, {
+			type: "Switch",
+			xy: "1984 1056",
+			group: "goat"
+		}, {
+			type: "AreaTrigger",
+			xy: "1984 1024",
+			size: "32 96",
+			group: "goat"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "goat"
+		}, {
+			type: "Switch",
+			xy: "1888 1248",
+			group: "limpet"
+		}, {
+			type: "TileTrigger",
+			xy: "1984 1216",
+			group: "limpet",
+			delay: "10000",
+			response: "0",
+			rebound: "2000"
+		}, {
+			type: "TileTrigger",
+			xy: "1984 1184",
+			group: "limpet",
+			delay: "10000",
+			response: "800",
+			rebound: "7200"
+		}, {
+			type: "TileTrigger",
+			xy: "1984 1152",
+			group: "limpet",
+			delay: "10000",
+			response: "5000",
+			rebound: "3000"
+		}, {
+			type: "TileTrigger",
+			xy: "1728 1216",
+			group: "limpet",
+			delay: "10000",
+			response: "2000",
+			rebound: "2000"
+		}, {
+			type: "TileTrigger",
+			xy: "1728 1184",
+			group: "limpet",
+			delay: "10000",
+			response: "2800",
+			rebound: "6000"
+		}, {
+			type: "TileTrigger",
+			xy: "1728 1152",
+			group: "limpet",
+			delay: "10000",
+			response: "6000",
+			rebound: "3000"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "4",
+			xy: "1856 800"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "4",
+			xy: "1856 672"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "4",
+			xy: "1824 736"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "4",
+			xy: "1824 608"
+		},
+		
+		
+		{
+			type: "Switch",
+			xy: "1984 960",
+			group: "zebra"
+		}, {
+			type: "TileTrigger",
+			xy: "1792 864",
+			group: "zebra"
+		}, {
+			type: "TileTrigger",
+			xy: "1920 448",
+			group: "zebra"
+		}, {
+			type: "RollingBall",
+			xy: "1888 832",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1888 768",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1920 704",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1952 640",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1760 832",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1760 768",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1760 704",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1760 640",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "Switch",
+			xy: "1696 576",
+			group: "haddock"
+		}, {
+			type: "TileTrigger",
+			xy: "1920 512",
+			group: "haddock"
+		}, {
+			type: "TileTrigger",
+			xy: "1856 576",
+			group: "haddock"
+		}, {
+			type: "Diamond",
+			xy: "1920 480",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1888 480",
+			tint: "Purple"
+		}, {
+			type: "Diamond",
+			xy: "1728 800",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1728 736",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1728 672",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1952 800",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1952 736",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1952 672",
+			tint: "Green"
+		}, {
+			type: "Switch",
+			xy: "1760 448",
+			group: "dog"
+		}, {
+			type: "Switch",
+			xy: "1792 448",
+			group: "dog"
+		}, {
+			type: "AreaTrigger",
+			xy: "1760 384",
+			size: "64 96",
+			group: "dog"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "dog"
+		},
+		
+		
+		{
+			type: "Tip",
+			EN: "I am quite speechless. Only 61 diamonds to go!",
+			xy: "1184 544"
+		}, {
+			type: "Switch",
+			xy: "704 736",
+			group: "mamba"
+		}, {
+			type: "TileTrigger",
+			xy: "704 704",
+			group: "mamba"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "mamba"
+		}, {
+			type: "Switch",
+			xy: "704 640",
+			group: "snake"
+		}, {
+			type: "TileTrigger",
+			xy: "672 640",
+			group: "snake"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "snake"
+		}, {
+			type: "Switch",
+			xy: "672 576",
+			group: "cobra"
+		}, {
+			type: "TileTrigger",
+			xy: "704 576",
+			group: "cobra"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "cobra"
+		}, {
+			type: "Switch",
+			xy: "864 608",
+			group: "eel"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1152 384",
+			size: "6 6",
+			group: "eel"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1056 448",
+			size: "5 5",
+			group: "eel"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1568 992",
+			size: "4 4",
+			group: "eel"
+		}, {
+			type: "Switch",
+			xy: "1088 480",
+			group: "trout"
+		}, {
+			type: "TileTrigger",
+			xy: "1088 512",
+			group: "trout"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "trout"
+		}, {
+			type: "Switch",
+			xy: "1088 576",
+			group: "herring"
+		}, {
+			type: "TileTrigger",
+			xy: "1120 576",
+			group: "herring"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "herring"
+		},
+		
+		
+		
+		{
+			type: "Tip",
+			EN: "Finally, something that spiders can't navigate! %% You may want to be quick about this one...",
+			xy: "1504 448"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1472 288"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1504 288"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1440 288"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1472 320"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1504 320"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "10",
+			xy: "1440 320"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "10",
+			xy: "1600 736"
+		}, {
+			type: "Grunt",
+			team: 0,
+			xy: "1408 736"
+		}, {
+			type: "Switch",
+			xy: "1440 480",
+			group: "turtle"
+		}, {
+			type: "Switch",
+			xy: "1344 736",
+			group: "turtle"
+		}, {
+			type: "AreaTrigger",
+			xy: "1408 704",
+			group: "turtle",
+			size: "64 64"
+		}, {
+			type: "TileTrigger",
+			xy: "1568 960",
+			group: "turtle"
+		}, {
+			type: "Diamond",
+			xy: "1568 992",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 992",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1632 1056",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1568 1056",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 1056",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1632 992",
+			tint: "Green"
+		}, {
+			type: "Switch",
+			xy: "1376 480",
+			group: "rhino"
+		}, {
+			type: "WindLogic",
+			windy: false,
+			xy: "1344 576",
+			size: "9 7",
+			group: "rhino"
+		}, {
+			type: "Switch",
+			xy: "1536 608",
+			group: "koala"
+		}, {
+			type: "TileTrigger",
+			xy: "1568 736",
+			group: "koala"
+		}, {
+			type: "Diamond",
+			xy: "1568 608",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1504 576",
+			tint: "Green"
+		}, {
+			type: "Switch",
+			xy: "1344 288",
+			group: "panda"
+		}, {
+			type: "Switch",
+			xy: "1344 320",
+			group: "panda"
+		}, {
+			type: "Switch",
+			xy: "1312 320",
+			group: "panda"
+		}, {
+			type: "AreaTrigger",
+			xy: "1280 256",
+			size: "96 96",
+			group: "panda"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			group: "panda",
+			slot: 1
+		},
+		
+		
+		
+		{
+			type: "Diamond",
+			xy: "1216 256",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1600 64",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1568 96",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1888 32",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1952 32",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1984 32",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1600 128",
+			tint: "Blue"
+		}, {
+			type: "Switch",
+			xy: "1408 224",
+			group: "trex"
+		}, {
+			type: "TileTrigger",
+			xy: "1728 32",
+			group: "trex"
+		}, {
+			type: "TileTrigger",
+			xy: "1792 32",
+			group: "trex"
+		}, {
+			type: "Switch",
+			xy: "1664 128",
+			group: "snax"
+		}, {
+			type: "Switch",
+			xy: "1728 128",
+			group: "snax"
+		}, {
+			type: "AreaTrigger",
+			xy: "1856 96",
+			size: "64 32",
+			group: "snax"
+		}, {
+			type: "Switch",
+			xy: "1952 96",
+			group: "karp"
+		}, {
+			type: "TileTrigger",
+			xy: "1952 160",
+			group: "karp"
+		}, {
+			type: "Switch",
+			xy: "1952 224",
+			group: "alpha"
+		}, {
+			type: "TileTrigger",
+			xy: "1760 32",
+			group: "alpha"
+		}, {
+			type: "AreaTrigger",
+			xy: "1056 256",
+			size: "32 64",
+			group: "alpha"
+		}, {
+			type: "Switch",
+			xy: "1216 96",
+			group: "frog"
+		}, {
+			type: "Switch",
+			xy: "1248 96",
+			group: "frog"
+		}, {
+			type: "AreaTrigger",
+			xy: "1184 96",
+			size: "128 32",
+			group: "frog"
+		}, {
+			type: "SaveTrigger",
+			xy: "0 0",
+			slot: 1,
+			group: "frog"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "10",
+			xy: "1888 224"
+		}, {
+			type: "Switch",
+			xy: "960 64",
+			group: "dolphin"
+		}, {
+			type: "TileTrigger",
+			xy: "864 96",
+			group: "dolphin"
+		}, {
+			type: "Switch",
+			xy: "832 96",
+			group: "jellyfish"
+		}, {
+			type: "TileTrigger",
+			xy: "864 32",
+			group: "jellyfish"
+		}, {
+			type: "Switch",
+			xy: "1216 160",
+			group: "cat"
+		}, {
+			type: "TileTrigger",
+			xy: "1088 32",
+			group: "cat"
+		}, {
+			type: "Switch",
+			xy: "864 160",
+			group: "beta"
+		}, {
+			type: "AreaTrigger",
+			xy: "1216 32",
+			size: "64 32",
+			group: "beta"
+		}, {
+			type: "AreaTrigger",
+			xy: "992 256",
+			size: "32 64",
+			group: "beta"
+		}, {
+			type: "TileTrigger",
+			xy: "1088 128",
+			group: "beta"
+		}, {
+			type: "Spider",
+			direction: "East",
+			range: "2",
+			xy: "1184 160"
+		}, {
+			type: "Spider",
+			direction: "West",
+			range: "3",
+			xy: "1088 160"
+		}, {
+			type: "RollingBall",
+			xy: "832 32",
+			direction: "East",
+			skin: "rocky",
+			speed: "600"
+		}, {
+			type: "RollingBall",
+			xy: "1888 160",
+			direction: "East",
+			skin: "rocky",
+			speed: "450"
+		}, {
+			type: "Diamond",
+			xy: "1440 64",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1472 64",
+			tint: "Green"
+		}, {
+			type: "Diamond",
+			xy: "1024 32",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1056 32",
+			tint: "Blue"
+		}, {
+			type: "Diamond",
+			xy: "1024 352",
+			tint: "Green"
+		},
+		
+		
+		
+		{
+			type: "Switch",
+			xy: "768 160",
+			group: "okapi"
+		}, {
+			type: "WindLogic",
+			xy: "928 384",
+			size: "6 2",
+			group: "okapi"
+		}, {
+			type: "Switch",
+			xy: "864 288",
+			group: "fini"
+		}, {
+			type: "AreaTrigger",
+			xy: "832 256",
+			size: "96 96",
+			group: "fini"
+		}, {
+			type: "ExitTrigger",
+			xy: "0 0",
+			group: "fini"
+		}, {
+			type: "EyeCandy",
+			sprite: "tree1",
+			xy: "828 220"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "960 224"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "1024 224"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "1088 224"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "960 320"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "1024 320"
+		}, {
+			type: "EyeCandy",
+			sprite: "flag",
+			xy: "1088 320"
+		},
+		
+		{
+			type: "Switch",
+			xy: "928 384",
+			group: "omg1"
+		}, {
+			type: "TileTrigger",
+			xy: "1184 416",
+			group: "omg1"
+		}, {
+			type: "Switch",
+			xy: "960 384",
+			group: "omg2"
+		}, {
+			type: "TileTrigger",
+			xy: "1248 416",
+			group: "omg2"
+		}, {
+			type: "Switch",
+			xy: "992 384",
+			group: "omg3"
+		}, {
+			type: "TileTrigger",
+			xy: "1248 480",
+			group: "omg3"
+		}, {
+			type: "Switch",
+			xy: "1024 384",
+			group: "omg4"
+		}, {
+			type: "TileTrigger",
+			xy: "1184 480",
+			group: "omg4"
+		}, {
+			type: "Switch",
+			xy: "1056 384",
+			group: "omg5"
+		}, {
+			type: "AreaTrigger",
+			xy: "1184 416",
+			size: "96 96",
+			group: "omg5"
+		}, {
+			type: "Diamond",
+			xy: "1216 448",
+			tint: "Gold"
+		}]
+	}]
+}
